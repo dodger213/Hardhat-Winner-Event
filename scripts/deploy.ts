@@ -13,10 +13,6 @@ async function main() {
   const tx = await eventWinner.callWinner(winnerContractAddress);
 
   console.log("Transaction hash:", tx.hash);
-  // const receipt = await tx.wait();
-  // if (receipt) {
-  //   console.log("Transaction status:", receipt.status === 1 ? "Success" : "Failed");
-  // }
 }
 
 main()
